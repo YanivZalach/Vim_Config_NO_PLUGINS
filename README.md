@@ -8,9 +8,26 @@
 [Vim](https://www.vim.org/) / [NeoVim](https://neovim.io) is a powerful and highly configurable text editor designed to make text manipulation and coding a breeze. It's known for its unique modal editing system, where different modes offer distinct functionalities like insertion, navigation, and text manipulation. This design philosophy enables lightning-fast editing once you're familiar with the concepts.
 
 
-What do we have here? My Vim configuration file! 
+what are vim plugins? Plugins in Vim are add-ons that extend its capabilities for more efficient coding and editing.
+
+Pros:
+- Enhanced Functionality: Plugins extend Vim's capabilities, making tasks like coding and editing more efficient.
+- Language Support: Plugins offer specialized features for different programming languages.
+
+Cons:
+- Dependencies: Plugins can create compatibility issues and dependencies.
+- Conflicts: Multiple plugins might clash, requiring conflict resolution.
+
+There are additional aspects to consider in each case.
+
+**However, it's certain that a configuration file without plugins is copy and work!.**
+
+*What if I want plugins? visit: https://github.com/YanivZalach/Vim_Config*
+
+What do we have here? My Vim configuration file! WITHOUT ANY OUTSIDE PLUGINS
 
 Who can use it? Anyone can use it!
+
 
 
 ![vim_conf](https://github.com/YanivZalach/qtile-config/assets/131461377/7dc0cb1f-13a9-40e9-89c7-81e67cfa7901)
@@ -18,16 +35,9 @@ Who can use it? Anyone can use it!
 
 ## Requirements 🛠️
 
-Before using this Vim configuration, make sure you have the following installed on your system:
-
-**One of:**
+Before using this Vim configuration, make sure you have One of the following installed on your system:
 - [Vim](https://www.vim.org/) 📜
 - [NeoVim](https://neovim.io) 📜
-
-**And:**
-- [Node.js](https://github.com/nodejs/node) 🟢 (Auto-Completion using nvim.coc)
-- [Vim-Plug](https://github.com/junegunn/vim-plug) ⚡️ (plugin manager)
-
 
 
 ## Installation 📦
