@@ -1,4 +1,4 @@
-# My Awesome Vim / NeoVim Configuration
+# My Awesome Vim / NeoVim Configuration Without Plugins
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 <p align="center">
   <img width="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Vimlogo.svg/1200px-Vimlogo.svg.png" alt="Vim Logo">
@@ -24,13 +24,11 @@ There are additional aspects to consider in each case.
 
 *What if I want plugins? visit: https://github.com/YanivZalach/Vim_Config*
 
-What do we have here? My Vim configuration file! WITHOUT ANY OUTSIDE PLUGINS
+What do we have here? My Vim configuration file! WITHOUT ANY PLUGINS
 
 Who can use it? Anyone can use it!
 
-
-
-![vim_conf](https://github.com/YanivZalach/qtile-config/assets/131461377/7dc0cb1f-13a9-40e9-89c7-81e67cfa7901)
+<img width="960" alt="Screenshot 2023-08-26 180957" src="https://github.com/YanivZalach/Vim_Config_NO_PLUGINS/assets/131461377/0e5be3ed-eeb1-4b57-89e3-da1bc302503a">
 
 
 ## Requirements 🛠️
