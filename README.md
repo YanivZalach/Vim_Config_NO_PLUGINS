@@ -51,14 +51,14 @@ Before using this Vim configuration, make sure you have One of the following ins
     
       For Vim:
       ```bash
-      git clone https://github.com/YanivZalach/Vim_Config.git ~/Vim_Config
+      git clone https://github.com/YanivZalach/Vim_Config_NO_PLUGINS.git ~/Vim_Config
       mv ~/Vim_Config/* ~/
       rm -rf ~/Vim_Config
       ```
     
       For NeoVim:
       ```bash
-      git clone https://github.com/YanivZalach/Vim_Config.git ~/.config/nvim
+      git clone https://github.com/YanivZalach/Vim_Config_NO_PLUGINS.git ~/.config/nvim
       mv ~/.config/nvim/.vimrc ~/.config/nvim/init.vim
       ```
       ### Windows:
@@ -66,37 +66,16 @@ Before using this Vim configuration, make sure you have One of the following ins
     
       For Vim:
       ```pwsh
-      git clone https://github.com/YanivZalach/Vim_Config.git $HOME\Vim_Config
+      git clone https://github.com/YanivZalach/Vim_Config_NO_PLUGINS.git $HOME\Vim_Config
       mv $HOME\Vim_Config* $HOME
       ```
     
       For NeoVim:
       ```pwsh
-      git clone https://github.com/YanivZalach/Vim_Config.git  $HOME\AppData\Local\nvim
+      git clone https://github.com/YanivZalach/Vim_Config_NO_PLUGINS.git  $HOME\AppData\Local\nvim
       mv $HOME\AppData\Local\nvim\.vimrc $HOME\AppData\Local\nvim\init.vim
       ```
-3. Install the Plugins:
-   
-   To install the plugins, follow these steps:
-   
-   Launch Vim/NeoVim by typing the following in the terminal/PowerShell (use vim for Vim or nvim for NeoVim), all in lowercase:
-   ```
-   vim
-   ```
-   Once inside Vim/NeoVim, press **:** to enter command mode.
-
-   Write the following command to trigger plugin installation:
-   ```
-   PlugInstall
-   ```
-   After running this command, a window will pop up showing the progress of plugin downloads. Wait for the downloads to complete.
-
-   Once the download is finished, you can exit the window by typing:
-   ```
-   :q
-   ```
-   With these steps, you'll have successfully installed the plugins for your Vim/NeoVim configuration.
-   
+  3. **We are Done!**
 
 ## Usage, Features, and Special Key Bindings 🚀
 ### Welcome to Your Enhanced Vim Experience!
@@ -107,25 +86,18 @@ Smart Tab and Indentation Settings 💡
 Beautiful Color Scheme 🌈
   * A soothing color scheme that's easy on your eyes is set as default, enhancing your focus and readability.
   
-Basic Auto-Completion using coc.nvim 🔌
+Basic Auto-Completion 🔌
   
-  * Auto-completion courtesy of coc.nvim, which can be extended for future enhancements.
+  * Auto-completion, which can be extended for future enhancements.
     
-NERD Tree Integration 🌲
-  * Navigate through your project effortlessly with NERD Tree, your trusty sidekick for efficient file exploration.
+Lex File Exsplorer 🌲
+  * Navigate through your project effortlessly with a File Exsplorer, your trusty sidekick.
   
-Vim-airline ✈️
+Vim-StatusBar ✈️
   * a sleek and customizable status bar for Vim, located at the bottom of your editor.
-
-Vim-devicons 🔍
-  * Developer-friendly icons to different file types and directories. 
 
 Vim-terminal 💻
   * A terminal emulator directly within Vim. This feature empowers you to run commands, compile code, and perform other terminal-related tasks without leaving your Vim environment.
-
-
-Jedi-vim *(commented by default)* 🐍
-  * enhances your Python3 coding experience by providing auto-completion, code analysis, and documentation pop-ups.
 
 
 ### Native Vim Key Bindings 🎮
@@ -141,6 +113,7 @@ Utilize these native Vim key bindings to navigate and control the text editor ef
 - `i`, `a`, `s`: Enter insert mode.
 - `shift+v`: Enter visual line mode.
 - `z=`: Get spelling check suggestions for a word.
+- `<Ctrl> + n`:  Auto-Completion
 - `dd`: Delete the current line.
 - `yy`: Yank (copy) the current line.
 - `p`: Paste the content you've yanked or deleted.
@@ -169,10 +142,9 @@ Take your editing experience to the next level with these added key bindings:
 - `<Ctrl> + j`, `<Ctrl> + k`, `<Ctrl> + h`, `<Ctrl> + l`: Navigate between splits.
 - `<Ctrl> + Left Arrow`, `<Ctrl> + Right Arrow`, `<Ctrl> + Up Arrow`, `<Ctrl> + Down Arrow`: Resize splits.
 - `<Space> + t`: Switch between tabs.
-- `<Space> + c`: Create a new tab.
+- `<Space> + c`: Create\Open a new tab.
 - `<Ctrl> + s`: Save the current file.
 - `<Ctrl> + q`: Save and quit.
-- `<Ctrl> + n`: Toggle NERD Tree.
 
 
 
