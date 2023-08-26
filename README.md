@@ -49,7 +49,7 @@ Before using this Vim configuration, make sure you have One of the following ins
     
       For Vim:
       ```bash
-      git clone https://github.com/YanivZalach/Vim_Config.git ~/Vim_Config
+      git clone https://github.com/YanivZalach/Vim_Config_NO_PLUGINS.git ~/Vim_Config
       mv ~/Vim_Config/.vimrc  ~/.
       ```
     
