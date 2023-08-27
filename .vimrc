@@ -139,7 +139,7 @@
 	inoremap <expr> <Tab> TabComplete()
 	fun! TabComplete()
 	    if getline('.')[col('.') - 2] =~ '\K' || pumvisible()
-	        return "\<C-P>"
+	        return "\<C-N>"
 	    else
 	        return "\<Tab>"
 	    endif
@@ -156,7 +156,7 @@
 	        \ && getline('.')[col('.') - 2] =~ '\K' " last char
 	        \ && getline('.')[col('.') - 1] !~ '\K'
 	
-	        call feedkeys("\<C-P>", 'n')
+	        call feedkeys("\<C-N>", 'n')
 	    end
 	endfun
 
@@ -206,7 +206,7 @@
 	set statusline+=<
 	set statusline+=-
 	set statusline+=\ 
-	set statusline+=%F
+	set statusline+=%f
 	set statusline+=\ 
 	set statusline+=-
 	set statusline+=>
