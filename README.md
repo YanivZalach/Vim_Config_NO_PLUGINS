@@ -138,7 +138,7 @@ Take your editing experience to the next level with these added key bindings:
 - `<Space> + y`: Split window vertically.
 - `<Space> + x`: Split window horizontally.
 - `<Ctrl> + j`, `<Ctrl> + k`, `<Ctrl> + h`, `<Ctrl> + l`: Navigate between splits.
-- `<Ctrl> + Left Arrow`, `<Ctrl> + Right Arrow`, `<Ctrl> + Up Arrow`, `<Ctrl> + Down Arrow`: Resize splits.
+- `<Alt> + Left Arrow`, `<Alt> + Right Arrow`, `<Alt> + Up Arrow`, `<Alt> + Down Arrow`: Resize splits.
 - `<Space> + t`: Switch between tabs.
 - `<Space> + c`: Create\Open a new tab.
 - `<Ctrl> + s`: Save the current file.
