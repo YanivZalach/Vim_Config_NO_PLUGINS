@@ -338,8 +338,8 @@
 
 
 " You can split the window in Vim. y - in the y access , x - in the x access
-	map <leader>y :split<CR>
-	map <leader>x :vsplit<CR>
+	map <leader>y :split<space>
+	map <leader>x :vsplit<space>
 
 
 " Navigate the split view easier by pressing CTRL+j, CTRL+k, CTRL+h, or CTRL+l.
@@ -351,10 +351,10 @@
 
 " Resize split windows using arrow keys by pressing:
 " CTRL+UP, CTRL+DOWN, CTRL+LEFT, or CTRL+RIGHT.
-	noremap <c-up> <c-w>+
-	noremap <c-down> <c-w>-
-	noremap <c-left> <c-w>>
-	noremap <c-right> <c-w><
+	noremap <c-UP> <c-w>+
+	noremap <c-DOWN> <c-w>-
+	noremap <c-LEFT> <c-w>>
+	noremap <c-RIGHT> <c-w><
 
 
 " Moving between tabs
