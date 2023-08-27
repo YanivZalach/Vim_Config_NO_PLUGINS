@@ -211,7 +211,7 @@
 	set statusline+=-
 	set statusline+=>
 	set statusline+=\ 
-	set statusline+=%5*
+	set statusline+=%4*
 	set statusline+=%m
 	set statusline+=%=
 	set statusline+=%h
@@ -231,20 +231,20 @@
 	set statusline+=|
 	set statusline+=%y
 	set statusline+=\ 
-	set statusline+=%5*
+	set statusline+=%4*
 	set statusline+=%P
 	set statusline+=\ 
 	set statusline+=%3*
 	set statusline+=t:
 	set statusline+=%n
+	set statusline+=\ 
 
 
 " Colors
 	hi User2 ctermbg=lightgreen ctermfg=black guibg=lightgreen guifg=black
-	hi User1 ctermbg=black ctermfg=white guibg=black guifg=white
-	hi User3 ctermbg=black  ctermfg=lightblue guibg=black guifg=lightblue
-	hi User4 ctermbg=black  ctermfg=lightgreen guibg=black guifg=lightgreen
-	hi User5 ctermbg=black   ctermfg=magenta guibg=black guifg=magenta
+	hi User1 ctermbg=brown ctermfg=white guibg=black guifg=white
+	hi User3 ctermbg=brown  ctermfg=lightcyan guibg=black guifg=lightblue
+	hi User4 ctermbg=brown ctermfg=green guibg=black guifg=lightgreen
 
 
 " Mode
@@ -351,10 +351,10 @@
 
 " Resize split windows using arrow keys by pressing:
 " CTRL+UP, CTRL+DOWN, CTRL+LEFT, or CTRL+RIGHT.
-	noremap <a-Up> <c-w>+
-	noremap <a-Down> <c-w>-
-	noremap <a-Left> <c-w>>
-	noremap <a-Right> <c-w><
+	noremap <a-up> <c-w>+
+	noremap <a-down> <c-w>-
+	noremap <a-left> <c-w>>
+	noremap <a-right> <c-w><
 
 
 " Moving between tabs
