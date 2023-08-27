@@ -28,7 +28,7 @@ What do we have here? My Vim configuration file! WITHOUT ANY PLUGINS
 
 Who can use it? Anyone can use it!
 
-<img width="960" alt="better" src="https://github.com/YanivZalach/Vim_Config_NO_PLUGINS/assets/131461377/8ffdfabd-05f8-40a7-8770-65dc8c6db738">
+<img width="960" alt="Screenshot 2023-08-27 182110" src="https://github.com/YanivZalach/Vim_Config_NO_PLUGINS/assets/131461377/fcdd579e-aba6-4390-b1fc-f0cedaf5069b">
 
 
 
