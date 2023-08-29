@@ -50,8 +50,8 @@ Before using this Vim configuration, make sure you have One of the following ins
     
       For Vim:
       ```bash
-      git clone https://github.com/YanivZalach/Vim_Config_NO_PLUGINS.git ~/Vim_Config
-      mv ~/Vim_Config/.vimrc  ~/.
+      git clone https://github.com/YanivZalach/Vim_Config_NO_PLUGINS.git ~/.Vim_Config
+      mv ~/.Vim_Config/.vimrc  ~/.
       ```
     
       For NeoVim:
@@ -64,8 +64,8 @@ Before using this Vim configuration, make sure you have One of the following ins
     
       For Vim:
       ```pwsh
-      git clone https://github.com/YanivZalach/Vim_Config_NO_PLUGINS.git $HOME\Vim_Config
-      mv $HOME\Vim_Config* $HOME
+      git clone https://github.com/YanivZalach/Vim_Config_NO_PLUGINS.git $HOME\.Vim_Config
+      mv $HOME\.Vim_Config* $HOME
       ```
     
       For NeoVim:
