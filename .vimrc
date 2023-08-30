@@ -60,7 +60,7 @@
 	set mouse=a
 
 " Color scheme
-	color slate 
+	colorscheme slate 
 
 " Highlight cursor line underneath the cursor horizontally.
 	set cursorline
