@@ -311,8 +311,9 @@
 	map <c-t> :ter<CR>
 " Closing the terminal window
 	tnoremap <c-t> exit<CR>
-" CTRL+I to make the terminal scrollable and I to input mode
+" CTRL+I OR Esc to make the terminal scrollable and I to input mode
 	tnoremap <c-i> <c-w><s-n> 
+	tnoremap <Esc> <C-\><C-n>
 
 
 " You can split the window in Vim. y - in the y access , x - in the x access
