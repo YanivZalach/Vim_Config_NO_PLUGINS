@@ -184,7 +184,7 @@
     	" Hide the right-side scroll bar.
     		set guioptions-=r
 
-		" Start NERD Tree and put the cursor back in the other window.
+		" Start Lex Tree and put the cursor back in the other window.
 			autocmd VimEnter * :Lexplore | wincmd p
 
 	endif
