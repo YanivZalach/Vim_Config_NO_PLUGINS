@@ -157,6 +157,9 @@ Take your editing experience to the next level with these added key bindings:
 - `<Space> + c`: Create\Open a new tab.
 - `<Ctrl> + s`: Save the current file.
 - `<Ctrl> + q`: Save and quit.
+- `<Space> + sw`: Surround word with a wanted character.
+- `<Space> + rw`: Replace all occurrences of a word.
+
 
 ## Troubleshooting 🔧
 
