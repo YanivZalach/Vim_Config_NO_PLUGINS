@@ -369,6 +369,9 @@
 	vnoremap <C-C> "*y :let @+=@*<CR>
 " If not in Linux replace the keybinding in above line with: vnoremap <C-C> "+y
 
+" Seeing the registers
+	nnoremap <leader>r <cmd>registers<CR>
+
 
 "------------------END_KEY------------------
 
