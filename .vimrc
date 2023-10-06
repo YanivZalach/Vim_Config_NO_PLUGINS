@@ -190,6 +190,24 @@
 	endif
 
 
+"------------------Hebrew_Toggle_Function------------------
+
+
+function! ToggleHebrew()
+	if &rl
+		set norl
+		set keymap=
+		set spell
+		echom "Hebrew mode OFF"
+	else
+		set rl
+		set keymap=hebrew
+		set nospell
+		echom "Hebrew mod ON"
+	endif
+endfunction
+
+
 "------------------STATUS_LINE------------------
 
 
@@ -358,6 +376,10 @@
 
 " Replace all occurrences of a word
 	nnoremap <leader>rw :%s/\<<c-r><c-w>\>//g<left><left>
+
+
+" Toggle Hebrew key maps and Right-to-Left setting
+	nnoremap <leader>ht <cmd>call ToggleHebrew()<CR>
 
 
 " Map V-Block to not confuse with Past
