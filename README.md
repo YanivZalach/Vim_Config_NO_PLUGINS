@@ -111,6 +111,10 @@ Vim-terminal 💻
 
 - A terminal emulator directly within Vim. This feature empowers you to run commands, compile code, and perform other terminal-related tasks without leaving your Vim environment.
 
+Hebrew Mode 🚀
+
+- A mode that support right to left written languages. This feature empowers you so you can use any Language in vim.
+
 ### Native Vim Key Bindings 🎮
 
 Utilize these native Vim key bindings to navigate and control the text editor efficiently:
@@ -160,7 +164,9 @@ Take your editing experience to the next level with these added key bindings:
 - `<Ctrl> + q`: Save and quit.
 - `<Space> + sw`: Surround word with a wanted character.
 - `<Space> + rw`: Replace all occurrences of a word.
-- `<Space + ht`: toggle `Hebrew` mode.
+- `<Space + ht`: Toggle `Hebrew` mode.
+- `J`: In visual mode, move line down.
+- `K`: In visual mode, move line up.
 
 
 ## Troubleshooting 🔧
