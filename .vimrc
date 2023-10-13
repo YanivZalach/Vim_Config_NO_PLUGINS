@@ -161,6 +161,14 @@
 	endfun
 
 
+" Closing compaction in insert mode
+	inoremap ' ''<left>
+	inoremap " ""<left>
+	inoremap ( ()<left>
+	inoremap [ []<left>
+	inoremap { {}<left>
+	inoremap /* /**/<left><left>
+
 "------------------GVIM - GUI VERSION------------------
 
 
@@ -391,8 +399,13 @@ endfunction
 	vnoremap <C-C> "*y :let @+=@*<CR>
 " If not in Linux replace the keybinding in above line with: vnoremap <C-C> "+y
 
+
 " Seeing the registers
 	nnoremap <leader>r <cmd>registers<CR>
+
+" Moving lines in visual mode
+	vnoremap J :m '>+1<CR>gv=gv
+	vnoremap K :m '>-2<CR>gv=gv
 
 
 "------------------END_KEY------------------
