@@ -53,14 +53,14 @@ Before using this Vim configuration, make sure you have One of the following ins
 
   ```bash
   git clone https://github.com/YanivZalach/Vim_Config_NO_PLUGINS.git ~/.Vim_Config
-  mv ~/.Vim_Config/.vimrc  ~/.
+  echo "source ~/.Vim_Config/.vimrc" > ~/.vimrc
   ```
 
   For NeoVim:
 
   ```bash
-  git clone https://github.com/YanivZalach/Vim_Config_NO_PLUGINS.git ~/.config/nvim
-  mv ~/.config/nvim/.vimrc ~/.config/nvim/init.vim
+  git clone https://github.com/YanivZalach/Vim_Config_NO_PLUGINS.git ~/.config/nvim_git
+  echo "source ~/.config/nvim_git/init.vim" > ~/.config/nvim/init.vim
   ```
 
 ### Windows
