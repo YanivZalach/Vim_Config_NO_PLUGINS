@@ -163,6 +163,7 @@
 
 " Closing compaction in insert mode
 	inoremap ' ''<left>
+	inoremap ` ``<left>
 	inoremap " ""<left>
 	inoremap ( ()<left>
 	inoremap [ []<left>
