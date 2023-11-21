@@ -99,7 +99,7 @@ Basic Auto-Completion 🔌
   
 - Auto-completion, which can be extended for future enhancements.
 
-Lex File Exsplorer 🌲
+Netrw File Exsplorer 🌲
 
 - Navigate through your project effortlessly with a File Exsplorer, your trusty sidekick.
   
@@ -151,6 +151,7 @@ Take your editing experience to the next level with these added key bindings:
 - `Q`: Format a paragraph into lines.
 - `<Ctrl> + z`: Toggle spell check.
 - `<Space> + e`: Open a file explorer.
+- `<Space> + o`: Open a file from explorer.
 - `<Space> + v`: Enter V-Block Mode.
 - `<Ctrl> + t`: Toggle a terminal window.
 - `<Ctrl> + i`: Make the terminal scrollable or switch to input mode.

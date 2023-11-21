@@ -330,6 +330,8 @@ endfunction
 " Opening a file explore 
 	map <leader>e :Lex<CR>
 
+" Opening a file from explorer
+	map <leader>o :Explore<CR>
 
 " Opening a terminal window
 	map <c-t> :ter<CR>
