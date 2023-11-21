@@ -179,9 +179,9 @@
 			if has("macvim")
     			set guifont=Menlo\ Regular:h14
 			elseif has("win32")
-				set guifont="Consolas 11"
+				set guifont="Consolas 14"
 			else
-				set guifont=Consolas\ 14
+				set guifont=Consolas\ 18
 			endif
 
 		" Hide the toolbar.
