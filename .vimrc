@@ -195,6 +195,58 @@
 
 	endif
 
+"------------------Hex_Toggle_Functions------------------
+
+function! DoHex()
+    " Get the current buffer name
+    let current_file = expand('%')
+
+    " New file name
+	let new_file = current_file . '.hex'
+
+    " Save the current buffer as a hex file
+    execute 'w !xxd > ' . new_file
+
+    echo "Hex file created and saved as " . new_file
+endfunction
+
+function! UndoHex()
+    " Get the current buffer name
+    let current_file = expand('%')
+
+	" Name stage 1: Remove the .hex extension if it exists
+    let new_file_stage1 = substitute(current_file, '\.hex$', '', '')
+
+	" Get the file name without extension
+	let file_name = substitute(new_file_stage1, '\(.*\)\.\(\w\+\)$', '\1', '')
+
+	" Get the file extension
+	let file_extension = substitute(new_file_stage1, '\(.*\)\.\(\w\+\)$', '\2', '')
+
+	" Add 'M' before the extension(M = Modded)
+	let new_file = file_name . 'M.' . file_extension
+
+    " Save the current buffer as a reversed hex file
+    execute 'w !xxd -r > ' . new_file
+
+    echo "Reversed Hex file created and saved as " . new_file
+endfunction
+
+" Function to toggle between hex and original states
+function! HexState()
+    " Get user input to choose the operation (0 for DoHex, 1 for UndoHex)
+    let operation = input("Choose operation (0 for DoHex, 1 for UndoHex): ")
+
+    if operation == 0
+        " Execute the DoHex function
+        call DoHex()
+    elseif operation == 1
+        " Execute the UndoHex function
+        call UndoHex()
+    else
+        echo "Invalid choice. Aborting."
+    endif
+endfunction
 
 "------------------Hebrew_Toggle_Function------------------
 
@@ -388,6 +440,10 @@ endfunction
 
 " Toggle Hebrew key maps and Right-to-Left setting
 	nnoremap <leader>ht <cmd>call ToggleHebrew()<CR>
+
+
+" Toggle between creating a Hex conversion file and reversing the conversion
+	nnoremap <leader>hx <cmd>call HexState()<CR>
 
 
 " Map V-Block to not confuse with Past
