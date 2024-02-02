@@ -378,6 +378,10 @@ endfunction
 " Set the space  as the leader key.
 	let mapleader = " "
 
+	
+" Select all the text
+	nnoremap <leader>a ggVG
+
 
 " Opening a file explore 
 	map <leader>e :Lex<CR>

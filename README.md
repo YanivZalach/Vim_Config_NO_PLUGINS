@@ -146,6 +146,7 @@ Take your editing experience to the next level with these added key bindings:
 
 - `<Ctrl> + c`: Copy text to the main clipboard in normal mode.
 - `<Ctrl> + <Shift> + v`: Paste text from the main clipboard.
+- `<Space> + a`: Selecting all the text in the document.
 - `<Space> + r`: Showing vim registers.
 - `jj`: Quickly exit insert mode.
 - `Q`: Format a paragraph into lines.
