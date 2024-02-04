@@ -455,7 +455,7 @@ endfunction
 
 
 " For copy and past
-	map <C-S-V> "+P
+	map <C-V> "+P
 	vnoremap <C-C> "*y :let @+=@*<CR>
 " If not in Linux replace the keybinding in above line with: vnoremap <C-C> "+y
 
